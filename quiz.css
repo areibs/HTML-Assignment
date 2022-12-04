@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(43, 94, 176);
+}
+
+#text-2 {
+    color:red
+}
+
+div.box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 30px;
+    height: 200px;
+    text-align: center;
+    margin:25%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(3n+0) {
+    background-color:gray;
+}
+
+li:hover {
+    background-color: white;
+}
+
+
